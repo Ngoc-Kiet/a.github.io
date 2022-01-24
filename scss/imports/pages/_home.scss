@@ -2016,7 +2016,7 @@
 
   .container {
     .pricing {
-      padding-bottom: 100px;
+      padding-bottom: 50px;
 
       &__header {
         font-family: IBMN3; 
@@ -2033,9 +2033,9 @@
         font-size: 28px;
         font-family: IBMI;
         // line-height: 1.4;
-        @media(max-width:768px) {
-          padding-bottom: 50px;
-        }
+        // @media(max-width:768px) {
+        //   padding-bottom: 50px;
+        // }
         @media(max-width:435px) {
           width: 100%;
           transform: initial;
